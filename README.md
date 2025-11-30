@@ -1,6 +1,7 @@
 📈 Time-Series Stock Price Prediction
 
 This project focuses on forecasting stock market prices using both classical and deep learning time-series techniques. It is designed to showcase end-to-end data science and machine learning skills for interviews and portfolio demonstration.
+1. Project Summary 
 | Section         | Description                                                       |
 | --------------- | ----------------------------------------------------------------- |
 | **Problem**     | Forecasting future stock closing prices using time-series models. |
@@ -9,8 +10,6 @@ This project focuses on forecasting stock market prices using both classical and
 | **Tech Stack**  | Python, Pandas, Numpy, Statsmodels, Matplotlib.                   |
 | **Outputs**     | Forecast graphs, model predictions, trend analysis.               |
 | **Use Case**    | Interview showcase, ML workflow demonstration.                    |
-
-1. Project Overview
 
 This project aims to forecast future stock closing prices using multiple approaches:
 
@@ -32,19 +31,19 @@ This project demonstrates a complete ML workflow, which is highly valuable for d
 time-series-stock-prediction/
 │
 ├── notebooks/
-│   ├── ARIMA_Forecasting.ipynb
-│   ├── LSTM_Forecasting.ipynb        (coming soon)
-│   └── Prophet_Forecasting.ipynb     (optional)
+│     ├── ARIMA_Forecasting.ipynb
+│     ├── LSTM_Forecasting.ipynb (coming soon)
 │
 ├── data/
-│   └── raw/
-│       └── FB.csv
+│     └── raw/
+│          └── FB.csv
 │
 ├── src/
-│   └── (future scripts: preprocessing, models, training)
+│     └── preprocessing, model scripts (upcoming)
 │
 ├── README.md
 └── LICENSE
+
 
 
 This folder design is industry-standard and looks professional in interviews.
