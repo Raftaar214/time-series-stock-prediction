@@ -1,109 +1,55 @@
-📈 Time-Series Stock Price Prediction
+Time-Series Stock Price Prediction
 
-This project focuses on forecasting stock market prices using both classical and deep learning time-series techniques. It is designed to showcase end-to-end data science and machine learning skills for interviews and portfolio demonstration.
-1. Project Summary 
-| Section         | Description                                                       |
-| --------------- | ----------------------------------------------------------------- |
-| **Problem**     | Forecasting future stock closing prices using time-series models. |
-| **Models Used** | ARIMA (done), LSTM (coming), Prophet (optional).                  |
-| **Dataset**     | Daily closing prices of Meta/Facebook (FB).                       |
-| **Tech Stack**  | Python, Pandas, Numpy, Statsmodels, Matplotlib.                   |
-| **Outputs**     | Forecast graphs, model predictions, trend analysis.               |
-| **Use Case**    | Interview showcase, ML workflow demonstration.                    |
+This project focuses on forecasting stock market closing prices using time-series analysis.
+It includes data preprocessing, trend analysis, and ARIMA-based forecasting.
+The project is built for learning, interviews, and portfolio demonstration.
 
-This project aims to forecast future stock closing prices using multiple approaches:
+1. Project Overview
 
-✔ Data cleaning & preprocessing
+Forecast future stock closing prices
 
-✔ Trend, seasonality & stationarity analysis
+Perform exploratory time-series analysis
 
-✔ Classical forecasting (ARIMA)
+Apply ARIMA model for forecasting
 
-✔ Deep learning forecasting (LSTM — coming next)
+Visualize predictions vs actual values
 
-✔ Model evaluation & comparison
-
-✔ Forecast visualization
-
-This project demonstrates a complete ML workflow, which is highly valuable for data science interviews.
-
-📁 2. Project Structure
+More models such as LSTM and Prophet will be added later.
+2. Project Structure
 time-series-stock-prediction/
 │
 ├── notebooks/
-│     ├── ARIMA_Forecasting.ipynb
-│     ├── LSTM_Forecasting.ipynb (coming soon)
+│     └── ARIMA_Forecasting.ipynb
 │
 ├── data/
 │     └── raw/
 │          └── FB.csv
 │
-├── src/
-│     └── preprocessing, model scripts (upcoming)
-│
 ├── README.md
 └── LICENSE
-
-
-
-This folder design is industry-standard and looks professional in interviews.
-
 3. Dataset
 
-Stock: Meta/Facebook (FB)
+Stock: Meta / Facebook (FB)
 
-Columns used: Date, Close
+Data: Daily closing prices
 
-Type: Daily stock price data
+File: data/raw/FB.csv4. Model Used
 
-Location: data/raw/FB.csv
+4. Model Used
+ARIMA (AutoRegressive Integrated Moving Average)
+Steps included:
 
-Future versions will include automated data extraction using yfinance.
+1.Stationarity check (ADF test)
 
-4. Technologies Used
+2.Log transformation
 
-Core Libraries
+3.Differencing
 
-Python
+4.ACF/PACF plots
 
-pandas, numpy
+5.ARIMA model training
 
-matplotlib, seaborn
+6.Forecasting future values
 
-statsmodels (ARIMA)
-
-scikit-learn
-
-Deep Learning (upcoming)
-
-TensorFlow / Keras or PyTorch
-
-Prophet (Meta)
-
-5. Models Implemented
-ARIMA
-
-Included in:
+Notebook available in:
 notebooks/ARIMA_Forecasting.ipynb
-
-Steps performed:
-
-Stationarity testing (ADF test)
-
-Rolling mean & variance
-
-Log transformation
-
-Differencing
-
-ACF/PACF
-
-ARIMA model fitting
-
-Forecasting & visualization
-
-6. Upcoming Improvements
-
-These upgrades will make the project interview-ready:
-
-🔜 LSTM Forecasting Notebook
