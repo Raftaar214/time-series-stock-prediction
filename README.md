@@ -1,21 +1,21 @@
-Time-Series Stock Price Prediction
+📈 Time-Series Stock Price Prediction
 
-This project focuses on forecasting stock market closing prices using time-series analysis.
-It includes data preprocessing, trend analysis, and ARIMA-based forecasting.
-The project is built for learning, interviews, and portfolio demonstration.
+A simple and clean project for forecasting stock market closing prices using time-series analysis.
+Useful for learning, interviews, and portfolio demonstration.
 
-1. Project Overview
+📌 1. Project Overview
 
-Forecast future stock closing prices
+🔍 Explore historical stock prices
 
-Perform exploratory time-series analysis
+📉 Analyze trends and stationarity
 
-Apply ARIMA model for forecasting
+🔢 Build ARIMA model for forecasting
 
-Visualize predictions vs actual values
+📊 Visualize actual vs predicted values
 
-More models such as LSTM and Prophet will be added later.
-2. Project Structure
+More models (LSTM, Prophet) will be added soon.
+
+📁 2. Project Structure
 time-series-stock-prediction/
 │
 ├── notebooks/
@@ -27,29 +27,30 @@ time-series-stock-prediction/
 │
 ├── README.md
 └── LICENSE
-3. Dataset
 
-Stock: Meta / Facebook (FB)
+🗂️ 3. Dataset
 
-Data: Daily closing prices
+Stock: Facebook / Meta (FB)
 
-File: data/raw/FB.csv4. Model Used
+Type: Daily closing prices
 
-4. Model Used
-ARIMA (AutoRegressive Integrated Moving Average)
-Steps included:
+Location: data/raw/FB.csv
 
-1.Stationarity check (ADF test)
+🤖 4. Model Used — ARIMA
 
-2.Log transformation
+Steps performed:
 
-3.Differencing
+🧪 ADF stationarity test
 
-4.ACF/PACF plots
+🔧 Log transformation
 
-5.ARIMA model training
+🔁 Differencing
 
-6.Forecasting future values
+📉 ACF / PACF analysis
 
-Notebook available in:
+⚙️ ARIMA model training
+
+📈 Forecast visualization
+
+Notebook:
 notebooks/ARIMA_Forecasting.ipynb
