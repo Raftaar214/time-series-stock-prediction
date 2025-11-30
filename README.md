@@ -1,6 +1,14 @@
 📈 Time-Series Stock Price Prediction
 
 This project focuses on forecasting stock market prices using both classical and deep learning time-series techniques. It is designed to showcase end-to-end data science and machine learning skills for interviews and portfolio demonstration.
+| Section         | Description                                                       |
+| --------------- | ----------------------------------------------------------------- |
+| **Problem**     | Forecasting future stock closing prices using time-series models. |
+| **Models Used** | ARIMA (done), LSTM (coming), Prophet (optional).                  |
+| **Dataset**     | Daily closing prices of Meta/Facebook (FB).                       |
+| **Tech Stack**  | Python, Pandas, Numpy, Statsmodels, Matplotlib.                   |
+| **Outputs**     | Forecast graphs, model predictions, trend analysis.               |
+| **Use Case**    | Interview showcase, ML workflow demonstration.                    |
 
 1. Project Overview
 
