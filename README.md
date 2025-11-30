@@ -1,144 +1,102 @@
-📘 Time-Series Stock Price Prediction
+📈 Time-Series Stock Price Prediction
 
-A complete time-series forecasting project that analyzes and predicts stock market prices using classical statistical models (ARIMA) and advanced deep learning models (LSTM). This project is structured for interviews, portfolio showcase, and real-world ML workflow demonstration.
+This project focuses on forecasting stock market prices using both classical and deep learning time-series techniques. It is designed to showcase end-to-end data science and machine learning skills for interviews and portfolio demonstration.
 
-📌 1. Project Overview
+🧭 1. Project Overview
 
-The goal of this project is to forecast future stock prices using multiple time-series techniques.
-The project demonstrates:
+This project aims to forecast future stock closing prices using multiple approaches:
 
-Data cleaning & preprocessing
+✔ Data cleaning & preprocessing
 
-Trend, seasonality & stationarity analysis
+✔ Trend, seasonality & stationarity analysis
 
-Classical forecasting (ARIMA)
+✔ Classical forecasting (ARIMA)
 
-Deep learning forecasting (LSTM — coming next)
+✔ Deep learning forecasting (LSTM — coming next)
 
-Model evaluation & comparison
+✔ Model evaluation & comparison
 
-Forecast visualization
+✔ Forecast visualization
 
-This project reflects end-to-end ML pipeline skills used in data science interviews.
+This project demonstrates a complete ML workflow, which is highly valuable for data science interviews.
 
-📂 2. Project Structure
+📁 2. Project Structure
 time-series-stock-prediction/
 │
-├─ notebooks/
-│    ├─ ARIMA_Forecasting.ipynb
-│    ├─ (LSTM_Forecasting.ipynb — coming next)
-│    └─ (Prophet_Forecasting.ipynb — optional)
+├── notebooks/
+│   ├── ARIMA_Forecasting.ipynb
+│   ├── LSTM_Forecasting.ipynb        (coming soon)
+│   └── Prophet_Forecasting.ipynb     (optional)
 │
-├─ data/
-│    └─ raw/
-│         └─ FB.csv
+├── data/
+│   └── raw/
+│       └── FB.csv
 │
-├─ src/
-│    └─ (future scripts: preprocessing, models, training)
+├── src/
+│   └── (future scripts: preprocessing, models, training)
 │
-├─ README.md
-└─ LICENSE
+├── README.md
+└── LICENSE
 
 
-This folder design is industry standard and looks very professional during interviews.
+This folder design is industry-standard and looks professional in interviews.
 
 📊 3. Dataset
 
-Ticker used: Meta/Facebook (FB)
-
-Source: Extracted manually (or via yfinance in future versions)
+Stock: Meta/Facebook (FB)
 
 Columns used: Date, Close
 
-Range: Daily stock prices
+Type: Daily stock price data
 
-Dataset is stored in:
+Location: data/raw/FB.csv
 
-data/raw/FB.csv
+Future versions will include automated data extraction using yfinance.
 
-🔧 4. Technologies & Libraries Used
+🔧 4. Technologies Used
+
+Core Libraries
+
 Python
 
-pandas
+pandas, numpy
 
-numpy
-
-matplotlib
+matplotlib, seaborn
 
 statsmodels (ARIMA)
 
-sklearn (metrics)
+scikit-learn
 
 Deep Learning (upcoming)
 
-TensorFlow / Keras OR PyTorch (for LSTM)
+TensorFlow / Keras or PyTorch
 
-Prophet (upcoming)
+Prophet (Meta)
 
-prophet by Meta
+📉 5. Models Implemented
+✅ ARIMA
 
-📈 5. Methods Implemented
-✔ ARIMA (AutoRegressive Integrated Moving Average)
+Included in:
+notebooks/ARIMA_Forecasting.ipynb
 
 Steps performed:
 
 Stationarity testing (ADF test)
 
-Rolling mean & variance analysis
+Rolling mean & variance
 
-Log transform
+Log transformation
 
 Differencing
 
-ACF & PACF plots
+ACF/PACF
 
 ARIMA model fitting
 
-Forecasting future values
+Forecasting & visualization
 
-Visualizing actual vs predicted prices
+🚧 6. Upcoming Improvements
 
-This notebook is already uploaded:
+These upgrades will make the project interview-ready:
 
-notebooks/ARIMA_Forecasting.ipynb
-
-🤖 6. Upcoming Enhancements (Interview-Strong Additions)
-🔜 LSTM Model
-
-Sequence-to-sequence prediction
-
-Sliding window dataset creation
-
-Train/test split
-
-Model training & evaluation
-
-Plot: Actual vs Predicted
-
-🔜 Prophet Model
-
-Trend + seasonality + holidays
-
-Automatic change-point detection
-
-🔜 Model Comparison
-
-RMSE
-
-MSE
-
-MAPE
-
-Graph comparison
-
-These upgrades will make the project very strong for interviews.
-
-📉 7. Results So Far
-
-ARIMA successfully fits log-scaled series
-
-Early forecasting accuracy is acceptable
-
-Visualization shows meaningful prediction behavior
-
-More accurate results expected after adding LSTM
+🔜 LSTM Forecasting Notebook
