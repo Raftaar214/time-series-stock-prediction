@@ -2,7 +2,7 @@
 
 This project focuses on forecasting stock market prices using both classical and deep learning time-series techniques. It is designed to showcase end-to-end data science and machine learning skills for interviews and portfolio demonstration.
 
-🧭 1. Project Overview
+1. Project Overview
 
 This project aims to forecast future stock closing prices using multiple approaches:
 
@@ -41,7 +41,7 @@ time-series-stock-prediction/
 
 This folder design is industry-standard and looks professional in interviews.
 
-📊 3. Dataset
+3. Dataset
 
 Stock: Meta/Facebook (FB)
 
@@ -53,7 +53,7 @@ Location: data/raw/FB.csv
 
 Future versions will include automated data extraction using yfinance.
 
-🔧 4. Technologies Used
+4. Technologies Used
 
 Core Libraries
 
@@ -73,8 +73,8 @@ TensorFlow / Keras or PyTorch
 
 Prophet (Meta)
 
-📉 5. Models Implemented
-✅ ARIMA
+5. Models Implemented
+ARIMA
 
 Included in:
 notebooks/ARIMA_Forecasting.ipynb
@@ -95,7 +95,7 @@ ARIMA model fitting
 
 Forecasting & visualization
 
-🚧 6. Upcoming Improvements
+6. Upcoming Improvements
 
 These upgrades will make the project interview-ready:
 
